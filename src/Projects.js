@@ -52,7 +52,7 @@ function Projects() {
               Undergraduate : Book donation platform based on SpringMVC 
             </div>
             <div class="sub-title">
-            Graduate : The International Air Transport Association(IATA) NDC Engine Development and Flight delay predication based on ASP.not Core and MLP
+            Graduate : The International Air Transport Association(IATA) NDC Engine Development and Flight delay predication based on ASP.net Core and MLP
             </div>
           </div>
           <div class="project">
