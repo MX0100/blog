@@ -8,6 +8,11 @@ function BlogPage() {
     <div className="app">
       <div className="content">
         <Header />
+        <h2>3rd Oct, 2024</h2>
+        <p>I start new intern position in FlyTogether as full-stack developer</p>
+        <footer className="footer"></footer>
+      </div>
+      <div className="content">
         <h2>26th Aug, 2024</h2>
         <p>I have climbed the Gros Morne Mountain.</p>
         <div className="image-container">

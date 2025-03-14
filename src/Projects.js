@@ -49,9 +49,18 @@ function Projects() {
           <div class="project">
             <div class="title">Graduation Project</div>
             <div class="sub-title">
-              Undergraduate ：Book donation platform Based on SpringMVC
+              Undergraduate : Book donation platform based on SpringMVC 
             </div>
-            <div class="sub-title">Graduate : TBD</div>
+            <div class="sub-title">
+            Graduate : The International Air Transport Association(IATA) NDC Engine Development and Flight delay predication based on ASP.not Core and MLP
+            </div>
+          </div>
+          <div class="project">
+            <div class="title">Personal Projects</div>
+            <div class="sub-title">Coming soon!</div>
+            <div class="sub-title">
+                My GitHub: <a href="https://github.com/MX0100" target="_blank" rel="noopener noreferrer">github.com/MX0100</a>
+            </div>
           </div>
         </div>
         <p>Additional content will be added here as the blog grows.</p>

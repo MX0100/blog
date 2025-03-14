@@ -11,7 +11,7 @@ function App() {
         <Header /> {/* 添加 Header 只需一行代码*/}
         <h1>Hey, I am Lucas Wang &#128075;</h1>
         <p>
-          I am a computer engineering graduate student currentlystudying in
+          I am a computer engineering graduate student currently studying in
           Memorial University of Newfoundland 👨‍💻.
         </p>
         <p>
