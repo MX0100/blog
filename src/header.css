@@ -1,28 +1,25 @@
-/* 样式用于 header */
 .header {
-    width: 100%; /* 占满容器宽度 */
-    background-color: #000; /* 黑色背景 */
-    padding: 10px 0; /* 上下内边距 */
-    box-sizing: border-box; /* 包括内边距和边框在内 */
-    margin-bottom: 20px; /* 内容与 header 之间的间距 */
+    width: 100%;
+    background-color: #000;
+    padding: 10px 0;
+    box-sizing: border-box;
+    margin-bottom: 20px;
   }
   
-  /* 确保 header 内的导航栏内容左对齐 */
   .header nav {
     display: flex;
-    justify-content: flex-start; /* 左对齐 header 内的内容 */
-    gap: 20px; /* 链接之间的间距 */
-    padding-left: 0; /* 内边距，调整导航栏位置 */
+    justify-content: flex-start;
+    gap: 20px;
+    padding-left: 0;
   }
   
-  /* 样式用于导航链接 */
   .header a {
-    color: #fff; /* 链接颜色 */
-    text-decoration: none; /* 去掉下划线 */
-    font-size: 1rem; /* 字体大小 */
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
   }
   
   .header a:hover {
-    color: #1e90ff; /* 悬浮时的颜色 */
+    color: #1e90ff;
   }
   

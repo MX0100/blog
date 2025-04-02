@@ -1,31 +1,31 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import linkIcon from "./link.png"; // 引入图片
-import "./App.css"; // 引用样式文件
+import linkIcon from "./link.png";
+import "./App.css";
 import Header from "./header";
 
 function App() {
   return (
     <div className="app">
       <div className="content">
-        <Header /> {/* 添加 Header 只需一行代码*/}
+        <Header /> {}
         <h1>Hey, I am Lucas Wang &#128075;</h1>
         <p>
           I am a computer engineering graduate student currently studying in
           Memorial University of Newfoundland 👨‍💻.
         </p>
         <p>
-          My skill sets include <span class="highlight">Web Development🌐</span>
-          , <span class="highlight">Image Processing</span>, and &nbsp;
-          <span class="highlight">Hardware Design</span>.
+          My skill sets include <span className="highlight">Web Development🌐</span>
+          , <span className="highlight">Image Processing</span>, and &nbsp;
+          <span className="highlight">Machine Learning</span>.
           <br />
           Programming languages I am proficient in include: C++, Python, Java,
           JavaScript, SQL, and HTML/CSS.
           <br />
-          I also have experience of using frameworks such as React⚛️, Node.js,
-          SpringMVC, and Django.
+          I also have experience using frameworks such as React⚛️, Angular.js,
+          Spring, and ASP.net core.
           <br />I have a strong background in database, I have worked with
-          MySQL, MongoDB, Redis, and SQLite.
+          MySQL, PostgreSQL, Redis, and SQLite.
         </p>
         <p>
           Since you are here, you may want to check out my

@@ -1,17 +1,19 @@
 import React from "react";
-//import { Link } from "react-router-dom";
-import "./App.css"; // 引用样式文件
+import "./App.css";
 import Header from "./header";
+
 function Hobby() {
   return (
     <div className="app">
       <div className="content">
-        <Header /> {/* 添加 Header 只需一行代码*/}
+        <Header />
         <h2>My Hobbies</h2>
         <p>
-          I am an official Fc bayern football fan and enjoy a varity of sports.
+          I am an official FC Bayern football fan and enjoy a variety of sports such as hiking, swimming, and badminton.
         </p>
-        {/* 兴趣内容 */}
+        <p>
+          I also enjoy studying history, as I believe we can learn valuable lessons from the mistakes made by people in the past.
+        </p>
       </div>
     </div>
   );

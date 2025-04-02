@@ -1,14 +1,12 @@
-// src/Projects.js
 import React from "react";
-//import { Link } from "react-router-dom";
-import "./App.css"; // 引用样式文件
+import "./App.css";
 import Header from "./header";
 
 function Projects() {
   return (
     <div className="app">
       <div className="content">
-        <Header /> {/* 添加 Header 只需一行代码*/}
+        <Header />
         <h2>
           These are the projects I have completed and am currently working on.
         </h2>

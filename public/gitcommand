@@ -3,19 +3,19 @@ npm start
 
 update to github page
 Part 1 Update to Github repositories
-# 1. 检查本地状态
+# 1. Check the current status
 git status
 
-# 2. 添加更改到暂存区
+# 2. Stage all changes
 git add .
 
-# 3. 提交更改
-git commit -m "Update image styling to align left and adjust layout"
+# 3. Commit your changes
+git commit -m "xxx"
 
-# 4. 拉取远程仓库的最新更改（可选）
+# 4. (Optional) Pull the latest changes from the remote repository
 git pull origin master
 
-# 5. 推送更改到远程仓库
+# 5. Push your changes to the remote repository
 git push origin master
 
 Part 2 Update to Github Pages

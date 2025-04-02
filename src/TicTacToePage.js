@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Header from "./header";
-import "./styles.css"; // 引用样式文件
-import "./index.css"; // 如果有全局样式
+import "./styles.css";
+import "./index.css";
 export default function Game() {
   const [history, setHistory] = useState([Array(9).fill(null)]);
   const [currentMove, setCurrentMove] = useState(0);
@@ -35,10 +35,10 @@ export default function Game() {
   return (
     <div className="app">
       <div className="content">
-        <Header /> {/* 添加 Header */}
-        <h2>I have used game to practice React</h2> {/* 添加标题 */}
+        <Header />
+        <h2>I have used game to practice React</h2>
         <div className="game">
-          <h1>TicTacToe</h1> {/* 添加标题 */}
+          <h1>TicTacToe</h1>
           <div className="game-board">
             <Board
               xIsNext={xIsNext}

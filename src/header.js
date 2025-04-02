@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./header.css"; // 添加 Header 的样式
+import "./header.css";
 
 function Header() {
   return (

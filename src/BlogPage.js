@@ -1,20 +1,32 @@
 import React from "react";
-import "./App.css"; // 引用样式文件
-import "./BlogPage.css"; // 引用 BlogPage 样式文件
-import Header from "./header"; // 引用 Header 组件
+import "./App.css";
+import "./BlogPage.css";
+import Header from "./header";
 
 function BlogPage() {
   return (
     <div className="app">
       <div className="content">
         <Header />
-        <h2>3rd Oct, 2024</h2>
-        <p>I start new intern position in FlyTogether as full-stack developer</p>
-        <footer className="footer"></footer>
-      </div>
-      <div className="content">
-        <h2>26th Aug, 2024</h2>
-        <p>I have climbed the Gros Morne Mountain.</p>
+
+        <h2>March 29, 2025</h2>
+        <p>
+          I have started a contract position as a Principal Engineer at Peerhaul! 
+          Check out our website: <a href="https://www.peerhaul.ca" target="_blank" rel="noopener noreferrer">www.peerhaul.ca</a>
+        </p>
+
+        <h2>January 10, 2025</h2>
+        <p>
+          I joined Dr. Tong's research team under the Stephen Jarislowsky Chair.
+        </p>
+
+        <h2>October 3, 2024</h2>
+        <p>
+          I started a new internship position at FlyTogether as a Full-Stack Developer.
+        </p>
+
+        <h2>August 26, 2024</h2>
+        <p>I climbed Gros Morne Mountain.</p>
         <div className="image-container">
           <img
             src={process.env.PUBLIC_URL + "/grosMorne1.jpg"}
@@ -27,9 +39,11 @@ function BlogPage() {
             className="responsive-image"
           />
         </div>
+
         <footer className="footer"></footer>
       </div>
     </div>
   );
 }
+
 export default BlogPage;
