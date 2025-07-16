@@ -11,32 +11,39 @@ function App() {
         <Header /> {}
         <h1>Hey, I am Lucas Wang &#128075;</h1>
         <p>
-          I am a computer engineering graduate student currently studying in
-          Memorial University of Newfoundland 👨‍💻.
+          I am a computer engineer based in St John's Newfoundland 👨‍💻 who has
+          strong background in OS and compuer architecture.
         </p>
         <p>
-          My skill sets include <span className="highlight">Web Development🌐</span>
-          , <span className="highlight">Image Processing</span>, and &nbsp;
+          My skill sets include{" "}
+          <span className="highlight">Web Development🌐</span>,{" "}
+          <span className="highlight">Data Science</span>, and &nbsp;
           <span className="highlight">Machine Learning</span>.
           <br />
-          Programming languages I am proficient in include: C++, Python, Java,
-          JavaScript, SQL, and HTML/CSS.
+          Programming languages I am proficient in include: Java, Python, C++,
+          JavaScript, SQL, HTML/CSS, VHDL and Dafny.
           <br />
-          I also have experience using frameworks such as React⚛️, Angular.js,
-          Spring, and ASP.net core.
-          <br />I have a strong background in database, I have worked with
-          MySQL, PostgreSQL, Redis, and SQLite.
-        </p>
-        <p>
-          Since you are here, you may want to check out my
-          <Link to="/tictactoe"> Tic-Tac-Toe game</Link>
-          to take a break from coding.
+          <br />
+          I have used frameworks such as React, Angular.js, Spring, and ASP .NET
+          Core to build modern platforms.
+          <br />
+          <br />
+          Regarding database work, I have worked with MySQL, PostgreSQL, Redis,
+          MongoDB, and SQLite to manage data.
+          <br />
+          <br />
+          Since you are here, you may want to check out my&nbsp;
+          <Link to="/tictactoe" className="light-blue-link">
+            {" "}
+            Tic-Tac-Toe game
+          </Link>
+          &nbsp;to take a break from coding.
         </p>
         <p>Additional content will be added here as the blog grows.😀</p>
         <footer className="footer">
           <p>
             <a
-              href="https://www.linkedin.com/in/wenkai-wang-367aa228a/"
+              href="https://www.linkedin.com/in/wangwk/"
               target="_blank"
               rel="noopener noreferrer"
             >

@@ -10,10 +10,10 @@ function Projects() {
         <h2>
           These are the projects I have completed and am currently working on.
         </h2>
-        <div class="container">
-          <div class="project">
-            <div class="title">Course Project</div>
-            <div class="sub-title">
+        <div className="container">
+          <div className="project">
+            <div className="title">Course Project</div>
+            <div className="sub-title">
               <a
                 href="https://github.com/MX0100/TodoList"
                 target="_blank"
@@ -22,7 +22,7 @@ function Projects() {
                 TodoList Based on Python and tkinter
               </a>
             </div>
-            <div class="sub-title">
+            <div className="sub-title">
               <a
                 href="https://github.com/MX0100/CarPlateRecognizer"
                 target="_blank"
@@ -31,7 +31,7 @@ function Projects() {
                 Car plate recognition system Based on Python and OpenCV
               </a>
             </div>
-            <div class="sub-title">
+            <div className="sub-title">
               <a
                 href="https://github.com/MX0100/life-fpga"
                 target="_blank"
@@ -41,22 +41,22 @@ function Projects() {
               </a>
             </div>
           </div>
-          <div class="project">
-            <div class="title">Collaborative Project ：TBD</div>
+          <div className="project">
+            <div className="title">Collaborative Project ：TBD</div>
           </div>
-          <div class="project">
-            <div class="title">Graduation Project</div>
-            <div class="sub-title">
+          <div className="project">
+            <div className="title">Graduation Project</div>
+            <div className="sub-title">
               Undergraduate : Book donation platform based on SpringMVC 
             </div>
-            <div class="sub-title">
+            <div className="sub-title">
             Graduate : The International Air Transport Association(IATA) NDC Engine Development and Flight delay predication based on ASP.net Core and MLP
             </div>
           </div>
-          <div class="project">
-            <div class="title">Personal Projects</div>
-            <div class="sub-title">Coming soon!</div>
-            <div class="sub-title">
+          <div className="project">
+            <div className="title">Personal Projects</div>
+            <div className="sub-title">Coming soon!</div>
+            <div className="sub-title">
                 My GitHub: <a href="https://github.com/MX0100" target="_blank" rel="noopener noreferrer">github.com/MX0100</a>
             </div>
           </div>

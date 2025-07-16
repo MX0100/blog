@@ -1,0 +1,120 @@
+/* Game controls container */
+.game-controls {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+/* Mode toggle button */
+.mode-button {
+  background: #fff;
+  color: #000;
+  border: 2px solid #fff;
+  padding: 12px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.mode-button:hover {
+  background: #000;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+/* Reset button */
+.reset-button {
+  background: #000;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 12px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.reset-button:hover {
+  background: #fff;
+  color: #000;
+  border: 2px solid #fff;
+}
+
+/* Game board styles */
+.game-board {
+  margin-bottom: 20px;
+}
+
+/* Board container - to move all squares together */
+.board-container {
+  margin-left: 50px;
+}
+
+/* Square styles */
+.square {
+  width: 80px;
+  height: 80px;
+  background: #fff;
+  border: 3px solid #000;
+  font-size: 36px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  color: #000;
+}
+
+.square:hover:not(:disabled) {
+  background: #f0f0f0;
+  transform: scale(1.05);
+}
+
+.square:disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.square.disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+/* Board row styles */
+.board-row {
+  display: flex;
+}
+
+/* Board border styles */
+.board-row .square {
+  border-bottom: 3px solid #000;
+  border-right: 3px solid #000;
+}
+
+.board-row .square:last-child {
+  border-right: 3px solid #000;
+}
+
+.board-row:last-child .square {
+  border-bottom: 3px solid #000;
+}
+
+/* Status message styles */
+.status {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  padding: 15px;
+  background: #fff;
+  color: #000;
+  border-radius: 8px;
+  border: 2px solid #fff;
+  min-width: 300px;
+}

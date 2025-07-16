@@ -1,100 +1,105 @@
 /* src/App.css */
 
-/* 确保整体内容居中 */
+/* Ensure overall content is centered */
 .app {
   display: flex;
   flex-direction: column;
-  align-items: center; /* 水平居中 */
-  height: 100vh; /* 视口高度 */
-  background-color: #000; /* 黑色背景 */
-  color: #fff; /* 白色字体 */
-  padding-top: 20px; /* 顶部留出一些间距 */
-  box-sizing: border-box; /* 包括内边距和边框在内 */
+  align-items: center; /* Horizontal centering */
+  height: 100vh; /* Viewport height */
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
+  padding-top: 20px; /* Top spacing */
+  box-sizing: border-box; /* Include padding and border */
   margin: 24px;
 }
 
-/* 确保 header 和 content 区域一致 */
+/* Ensure header and content areas are consistent */
 .content {
-  text-align: left; /* 文本左对齐 */
-  max-width: 672px; /* 最大宽度 */
-  width: 100%; /* 容器宽度 */
-  padding: 0 20px; /* 内容区域内边距，确保与 header 内边距对齐 */
-  margin-top: 20px; /* 与顶部之间的间距 */
+  text-align: left; /* Text left-aligned */
+  max-width: 672px; /* Maximum width */
+  width: 100%; /* Container width */
+  padding: 0 20px; /* Content area padding, aligned with header padding */
+  margin-top: 20px; /* Spacing from top */
 }
 .content p {
-  margin-bottom: 10px; /* 每段之间的间距 */
+  margin-bottom: 10px; /* Spacing between paragraphs */
 }
-/* 样式用于 header */
+/* Styles for header */
 .header {
-  width: 100%; /* 占满容器宽度 */
-  background-color: #000; /* 黑色背景 */
-  padding: 10px 0; /* 上下内边距 */
-  box-sizing: border-box; /* 包括内边距和边框在内 */
+  width: 100%; /* Full container width */
+  background-color: #000; /* Black background */
+  padding: 10px 0; /* Top and bottom padding */
+  box-sizing: border-box; /* Include padding and border */
 }
 
-/* 确保 header 内的导航栏内容左对齐 */
+/* Ensure header navigation content is left-aligned */
 .header nav {
   display: flex;
-  justify-content: flex-start; /* 左对齐 header 内的内容 */
-  gap: 20px; /* 链接之间的间距 */
-  padding-left: 0; /* 内边距，调整导航栏位置 */
+  justify-content: flex-start; /* Left-align header content */
+  gap: 20px; /* Spacing between links */
+  padding-left: 0; /* Padding to adjust navigation position */
 }
 
-/* 样式用于导航链接 */
+/* Styles for navigation links */
 .header a {
-  color: #fff; /* 链接颜色 */
-  text-decoration: none; /* 去掉下划线 */
-  font-size: 1rem; /* 字体大小 */
+  color: #fff; /* Link color */
+  text-decoration: none; /* Remove underline */
+  font-size: 1rem; /* Font size */
 }
 
 .header a:hover {
-  color: #1e90ff; /* 悬浮时的颜色 */
+  color: #1e90ff; /* Hover color */
 }
 
-/* 样式用于 footer */
+/* Styles for footer */
 .footer {
   margin-top: 20px;
 }
 
 .footer-icon {
-  width: 24px; /* 图标宽度 */
-  height: 24px; /* 图标高度 */
-  vertical-align: middle; /* 垂直对齐 */
+  width: 24px; /* Icon width */
+  height: 24px; /* Icon height */
+  vertical-align: middle; /* Vertical alignment */
 }
 
 .footer a {
-  color: #fff; /* 链接颜色 */
-  text-decoration: none; /* 去掉下划线 */
+  color: #fff; /* Link color */
+  text-decoration: none; /* Remove underline */
 }
 
 .footer a:hover {
-  color: #1e90ff; /* 悬浮时的颜色 */
+  color: #1e90ff; /* Hover color */
 }
-/* 确保每个项目 div 在新的一行上 */
+/* Ensure each project div is on a new line */
 .project {
-  border: 1px solid #2c2b2b; /* 边框颜色和样式 */
-  padding: 10px; /* 内边距 */
-  margin-bottom: 10px; /* 每个 div 之间的间距 */
-  background-color: #000; /* 背景颜色 (可选) */
-  width: 100%; /* 全宽 */
-  box-sizing: border-box; /* 包括内边距和边框在内 */
+  border: 1px solid #2c2b2b; /* Border color and style */
+  padding: 10px; /* Padding */
+  margin-bottom: 10px; /* Spacing between each div */
+  background-color: #000; /* Background color (optional) */
+  width: 100%; /* Full width */
+  box-sizing: border-box; /* Include padding and border */
 }
-/* 子标题样式 */
+/* Subtitle styles */
 .sub-title {
-  font-size: 0.8rem; /* 字体大小 */
-  color: #fff; /* 文字颜色 */
-  margin-top: 5px; /* 上边距 */
+  font-size: 0.8rem; /* Font size */
+  color: #fff; /* Text color */
+  margin-top: 5px; /* Top margin */
 }
 .sub-title a {
-  text-decoration: none; /* 去掉下划线 */
-  color: #fff; /* 确保链接颜色与子标题颜色一致 */
+  text-decoration: none; /* Remove underline */
+  color: #fff; /* Ensure link color matches subtitle color */
 }
 .sub-title a:hover {
-  color: #1e90ff; /* 悬浮时的颜色 */
+  color: #1e90ff; /* Hover color */
 }
-/* 可选：给 .project 添加一个全局容器，如果需要水平居中或其他布局调整 */
+/* Optional: Add a global container for .project if horizontal centering or other layout adjustments are needed */
 .container {
-  max-width: 600px; /* 最大宽度 */
-  margin: 0 auto; /* 水平居中 */
-  padding: 20px; /* 容器内边距 */
+  max-width: 600px; /* Maximum width */
+  margin: 0 auto; /* Horizontal centering */
+  padding: 20px; /* Container padding */
+}
+
+.light-blue-link {
+  color: #89cff0; /* Baby blue */
+  text-decoration: none;
 }

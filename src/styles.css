@@ -1,111 +1,45 @@
-/* Ensure overall content is centered */
+/* Overall content centering */
 .app {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center horizontally */
-  height: 100vh; /* Full viewport height */
+  align-items: center;
+  height: 100vh;
   background-color: #000; /* Black background */
   color: #fff; /* White text */
-  margin: 0; /* Remove default margin */
-  padding-top: 20px; /* Top padding */
-  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  margin: 0;
+  padding-top: 20px;
+  box-sizing: border-box;
 }
 
 /* Content container */
 .content {
-  text-align: left; /* Text left-aligned */
-  max-width: 500px; /* Maximum width */
-  width: 100%; /* Full width of container */
-  padding: 0 20px; /* Horizontal padding */
-  margin-top: 20px; /* Margin from top */
+  text-align: left;
+  max-width: 500px;
+  width: 100%;
+  padding: 0 20px;
+  margin-top: 20px;
 }
 
-/* Ensure the game content is centered */
+/* Game content centering */
 .game {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center horizontally */
-  height: 100vh; /* Full viewport height */
-  width: 100%; /* Full width */
+  align-items: center;
+  width: 100%;
 }
 
 /* Game title */
 .game h1 {
-  text-align: center; /* Center title */
+  text-align: center;
   font-size: 2rem;
-  margin: 20px 0; /* Vertical margin */
+  margin: 20px 0;
+  color: #fff;
 }
 
-/* Game subheading */
+/* Game subtitle */
 .game h2 {
-  text-align: left; /* Align to the left */
-  width: 100%; /* Ensure full width */
-  margin: 20px 0; /* Vertical margin */
-}
-
-/* Styles for the game board */
-.game-board {
-  margin-bottom: 20px;
-}
-
-/* Styles for each square on the board */
-.square {
-  width: 60px;
-  height: 60px;
-  background: #fff;
-  border: 2px solid #ddd;
-  font-size: 24px;
-  font-weight: bold;
-  cursor: pointer;
-  outline: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* Styling for the rows in the board */
-.board-row {
-  display: flex;
-}
-
-/* Remove border for squares between rows */
-.board-row .square {
-  border-bottom: none;
-}
-
-.board-row:last-child .square {
-  border-bottom: 2px solid #ddd;
-}
-
-/* Status message styling */
-.status {
-  margin-bottom: 20px;
-  font-size: 18px;
-}
-
-/* Styles for the move list */
-.game-info {
-  margin-top: 20px;
-}
-
-.game-info ol {
-  padding-left: 0;
-  list-style-type: none;
-}
-
-.game-info li {
-  margin-bottom: 5px;
-}
-
-.game-info button {
-  font-size: 16px;
-  cursor: pointer;
-  background: #f0f0f0;
-  border: 1px solid #ddd;
-  padding: 5px 10px;
-  border-radius: 4px;
-}
-
-.game-info button:hover {
-  background: #ddd;
+  text-align: left;
+  width: 100%;
+  margin: 20px 0;
+  color: #fff;
 }

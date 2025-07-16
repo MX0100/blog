@@ -1,4 +1,3 @@
-import React from "react";
 import "./App.css";
 import "./BlogPage.css";
 import Header from "./header";
@@ -12,7 +11,7 @@ function BlogPage() {
         <h2>March 29, 2025</h2>
         <p>
           I have started a contract position as a Principal Engineer at Peerhaul! 
-          Check out our website: <a href="https://www.peerhaul.ca" target="_blank" rel="noopener noreferrer">www.peerhaul.ca</a>
+          Check out our website: <a href="https://www.peerhaul.ca" target="_blank" rel="noopener noreferrer" className="light-blue-link">www.peerhaul.ca</a>
         </p>
 
         <h2>January 10, 2025</h2>
