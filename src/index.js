@@ -8,6 +8,8 @@ import App from "./App";
 import BlogPage from "./BlogPage";
 import TicTacToePage from "./TicTacToePage";
 import Projects from "./Projects";
+import Games from "./Games";
+import Snake from "./Snake";
 import Hobby from "./Hobby";
 
 const rootElement = document.getElementById("root");
@@ -21,6 +23,8 @@ root.render(
         <Route path="/blogpage" element={<BlogPage />} />
         <Route path="/tictactoe" element={<TicTacToePage />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/games" element={<Games />} />
+        <Route path="/snake" element={<Snake />} />
         <Route path="/hobby" element={<Hobby />} />
       </Routes>
     </BrowserRouter>

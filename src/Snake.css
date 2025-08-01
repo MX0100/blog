@@ -1,0 +1,129 @@
+/* Snake Game Screen */
+.snake-game-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  overflow: hidden;
+}
+
+/* Game Controls for GameBoy */
+.snake-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+
+.gameboy-control-btn {
+  background: linear-gradient(145deg, #e8e8e8, #d0d0d0);
+  border: 2px solid #aaa;
+  padding: 4px 8px;
+  font-size: 10px;
+  font-weight: bold;
+  color: #444;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.05s ease;
+  min-width: 50px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3),
+    inset 1px 1px 2px rgba(255, 255, 255, 0.8),
+    inset -1px -1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.gameboy-control-btn:active {
+  background: linear-gradient(145deg, #d0d0d0, #b8b8b8);
+  transform: translateY(1px);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4),
+    inset 2px 2px 4px rgba(0, 0, 0, 0.4),
+    inset -1px -1px 1px rgba(255, 255, 255, 0.3);
+}
+
+/* Game status overlay styles */
+.game-status-overlay {
+  backdrop-filter: blur(2px);
+}
+
+.status-message {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Mobile responsive for overlay */
+@media (max-width: 768px) {
+  .status-message {
+    font-size: 14px !important;
+    padding: 8px 12px !important;
+  }
+
+  .snake-game-screen {
+    padding: 2px !important;
+  }
+}
+
+/* Snake Board - adapted for GameBoy */
+.snake-board {
+  background: #000 !important;
+  border: 2px solid #555 !important;
+  box-shadow: inset 1px 1px 3px rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Snake segments - GameBoy style */
+.snake-segment {
+  background: #fff !important;
+  border: 1px solid #000 !important;
+}
+
+.snake-head {
+  background: #fff !important;
+  border: 2px solid #888 !important;
+}
+
+/* Food - GameBoy style */
+.snake-food {
+  background: #ccc !important;
+  border: 1px solid #888 !important;
+  border-radius: 50% !important;
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.8;
+  }
+}
+
+/* Remove previous mobile controls since GameBoy handles them */
+.mobile-controls,
+.direction-buttons,
+.direction-btn,
+.snake-instructions {
+  display: none !important;
+}
+
+/* Clean up previous styles */
+.snake-game,
+.game-header,
+.snake-score,
+.snake-button {
+  display: none !important;
+}

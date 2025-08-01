@@ -9,7 +9,7 @@ function App() {
     <div className="app">
       <div className="content">
         <Header /> {}
-        <h1>Hey, I am Lucas Wang &#128075;</h1>
+        <h1>Hey, I am Wenkai Wang &#128075;</h1>
         <p>
           I am a computer engineer based in St John's Newfoundland 👨‍💻 who has
           strong background in OS and compuer architecture.
@@ -19,16 +19,23 @@ function App() {
           <span className="highlight">Web Development🌐</span>,{" "}
           <span className="highlight">Data Science</span>, and &nbsp;
           <span className="highlight">Machine Learning</span>.
-        <p> Programming languages I am proficient in include: Java, Python, C++,
-          JavaScript, SQL, HTML/CSS, VHDL and Dafny.</p>
-        <p>I have used frameworks such as React, Angular.js, Spring, and ASP .NET
-          Core to build modern platforms.</p>
-        <p>Regarding database work, I have worked with MySQL, PostgreSQL, Redis,
-          MongoDB, and SQLite to manage data.</p>
-          Since you are here, you may want to check out my&nbsp;
-          <Link to="/tictactoe" className="light-blue-link">
+          <p>
             {" "}
-            Tic-Tac-Toe game
+            Programming languages I am proficient in include: Java, Python, C++,
+            JavaScript, SQL, HTML/CSS, VHDL and Dafny.
+          </p>
+          <p>
+            I have used frameworks such as React, Angular.js, Spring, and ASP
+            .NET Core to build modern platforms.
+          </p>
+          <p>
+            Regarding database work, I have worked with MySQL, PostgreSQL,
+            Redis, MongoDB, and SQLite to manage data.
+          </p>
+          Since you are here, you may want to check out my&nbsp;
+          <Link to="/games" className="light-blue-link">
+            {" "}
+            Games collection
           </Link>
           &nbsp;to take a break from coding.
         </p>
