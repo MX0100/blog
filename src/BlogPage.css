@@ -1,0 +1,33 @@
+/* Desktop styles */
+.image-container {
+  display: flex;
+  justify-content: space-between; /* This will place one image to the left and one to the right */
+}
+
+.responsive-image {
+  width: 320px; /* Fixed width for images */
+  height: auto;
+  margin: 10px; /* Optional: Adds some space around the images */
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  /* Adjust this breakpoint according to your design needs */
+  .image-container {
+    flex-direction: column; /* Stacks the images vertically */
+    align-items: center; /* Centers the images horizontally */
+  }
+
+  .responsive-image {
+    margin: 10px auto; /* Centers the images and adds margin on top and bottom */
+  }
+}
+
+.content h2 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.content p {
+  margin-bottom: 20px;
+}

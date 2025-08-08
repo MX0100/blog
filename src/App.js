@@ -1,52 +1,49 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import linkIcon from "./link.png"; // 引入图片
-import "./App.css"; // 引用样式文件
+import linkIcon from "./link.png";
+import "./App.css";
 import Header from "./header";
 
 function App() {
   return (
     <div className="app">
       <div className="content">
-        <Header /> {/* 添加 Header 只需一行代码*/}
-        <h1>Hey, I am Lucas Wang &#128075;</h1>
+        <Header /> {}
+        <h1>Hey, I am Wenkai Wang &#128075;</h1>
         <p>
-          I am a computer engineering graduate student currentlystudying in
-          Memorial University of Newfoundland 👨‍💻.
+          I am a computer engineer based in St John's Newfoundland 👨‍💻 who has
+          strong background in OS and compuer architecture.
         </p>
         <p>
-          My skill sets include <span class="highlight">Web Development🌐</span>
-          , <span class="highlight">Image Processing</span>, and &nbsp;
-          <span class="highlight">Hardware Design</span>.
-          <br />
-          Programming languages I am proficient in include: C++, Python, Java,
-          JavaScript, SQL, and HTML/CSS.
-          <br />
-          I also have experience of using frameworks such as React⚛️, Node.js,
-          SpringMVC, and Django.
-          <br />I have a strong background in database, I have worked with
-          MySQL, MongoDB, Redis, and SQLite.
-        </p>
-        <p>
-          I have done a course project by VHDL,{" "}
-          <a
-            href="https://github.com/MX0100/life-fpga"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Please Check it out
-          </a>
-        </p>
-        <p>
-          Since you are here, you may want to check out my
-          <Link to="/tictactoe"> Tic-Tac-Toe game</Link>
-          to take a break from coding.
+          My skill sets include{" "}
+          <span className="highlight">Web Development🌐</span>,{" "}
+          <span className="highlight">Data Science</span>, and &nbsp;
+          <span className="highlight">Machine Learning</span>.
+          <p>
+            {" "}
+            Programming languages I am proficient in include: Java, Python, C++,
+            JavaScript, SQL, HTML/CSS, VHDL and Dafny.
+          </p>
+          <p>
+            I have used frameworks such as React, Angular.js, Spring, and ASP
+            .NET Core to build modern platforms.
+          </p>
+          <p>
+            Regarding database work, I have worked with MySQL, PostgreSQL,
+            Redis, MongoDB, and SQLite to manage data.
+          </p>
+          Since you are here, you may want to check out my&nbsp;
+          <Link to="/games" className="light-blue-link">
+            {" "}
+            Games collection
+          </Link>
+          &nbsp;to take a break from coding.
         </p>
         <p>Additional content will be added here as the blog grows.😀</p>
         <footer className="footer">
           <p>
             <a
-              href="https://www.linkedin.com/in/wenkai-wang-367aa228a/"
+              href="https://www.linkedin.com/in/wangwk/"
               target="_blank"
               rel="noopener noreferrer"
             >

@@ -1,28 +1,50 @@
-/* 样式用于 header */
 .header {
-    width: 100%; /* 占满容器宽度 */
-    background-color: #000; /* 黑色背景 */
-    padding: 10px 0; /* 上下内边距 */
-    box-sizing: border-box; /* 包括内边距和边框在内 */
-    margin-bottom: 20px; /* 内容与 header 之间的间距 */
-  }
-  
-  /* 确保 header 内的导航栏内容左对齐 */
-  .header nav {
-    display: flex;
-    justify-content: flex-start; /* 左对齐 header 内的内容 */
-    gap: 20px; /* 链接之间的间距 */
-    padding-left: 0; /* 内边距，调整导航栏位置 */
-  }
-  
-  /* 样式用于导航链接 */
-  .header a {
-    color: #fff; /* 链接颜色 */
-    text-decoration: none; /* 去掉下划线 */
-    font-size: 1rem; /* 字体大小 */
-  }
-  
-  .header a:hover {
-    color: #1e90ff; /* 悬浮时的颜色 */
-  }
-  
+  width: 100%;
+  background-color: #000;
+  padding: 10px 0;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+/* Main navigation - always consistent */
+.main-nav {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.main-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.main-nav a:hover {
+  color: #1e90ff;
+}
+
+/* Back button section - appears below navigation */
+.back-section {
+  margin-top: 15px;
+  padding-top: 10px;
+}
+
+.back-button {
+  background: #000;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.back-button:hover {
+  background: #fff;
+  color: #000;
+  border: 2px solid #fff;
+}

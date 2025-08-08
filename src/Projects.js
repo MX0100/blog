@@ -1,21 +1,19 @@
-// src/Projects.js
 import React from "react";
-//import { Link } from "react-router-dom";
-import "./App.css"; // 引用样式文件
+import "./App.css";
 import Header from "./header";
 
 function Projects() {
   return (
     <div className="app">
       <div className="content">
-        <Header /> {/* 添加 Header 只需一行代码*/}
+        <Header />
         <h2>
           These are the projects I have completed and am currently working on.
         </h2>
-        <div class="container">
-          <div class="project">
-            <div class="title">Course Project</div>
-            <div class="sub-title">
+        <div className="container">
+          <div className="project">
+            <div className="title">Course Project</div>
+            <div className="sub-title">
               <a
                 href="https://github.com/MX0100/TodoList"
                 target="_blank"
@@ -24,7 +22,7 @@ function Projects() {
                 TodoList Based on Python and tkinter
               </a>
             </div>
-            <div class="sub-title">
+            <div className="sub-title">
               <a
                 href="https://github.com/MX0100/CarPlateRecognizer"
                 target="_blank"
@@ -33,16 +31,34 @@ function Projects() {
                 Car plate recognition system Based on Python and OpenCV
               </a>
             </div>
-          </div>
-          <div class="project">
-            <div class="title">Collaborative Project ：TBD</div>
-          </div>
-          <div class="project">
-            <div class="title">Graduation Project</div>
-            <div class="sub-title">
-              Undergraduate ：Book donation platform Based on SpringMVC
+            <div className="sub-title">
+              <a
+                href="https://github.com/MX0100/life-fpga"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                "Game of Life" Implementation on FPGA using VHDL
+              </a>
             </div>
-            <div class="sub-title">Graduate : TBD</div>
+          </div>
+          <div className="project">
+            <div className="title">Collaborative Project ：TBD</div>
+          </div>
+          <div className="project">
+            <div className="title">Graduation Project</div>
+            <div className="sub-title">
+              Undergraduate : Book donation platform based on SpringMVC 
+            </div>
+            <div className="sub-title">
+            Graduate : The International Air Transport Association(IATA) NDC Engine Development and Flight delay predication based on ASP.net Core and MLP
+            </div>
+          </div>
+          <div className="project">
+            <div className="title">Personal Projects</div>
+            <div className="sub-title">Coming soon!</div>
+            <div className="sub-title">
+                My GitHub: <a href="https://github.com/MX0100" target="_blank" rel="noopener noreferrer">github.com/MX0100</a>
+            </div>
           </div>
         </div>
         <p>Additional content will be added here as the blog grows.</p>

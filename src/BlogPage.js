@@ -1,51 +1,45 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import "./App.css"; // 引用样式文件
-import Header from "./header"; // 引用 Header 组件
+import "./App.css";
+import "./BlogPage.css";
+import Header from "./header";
 
 function BlogPage() {
   return (
     <div className="app">
       <div className="content">
-        <Header /> {/* 添加 Header 只需一行代码 */}
-        <h2>26th Aug, 2024</h2>
-        <p>I have climbed the Gros Morne Mountain.</p>
-        <div style={{ float: "left", marginRight: "10px" }}>
+        <Header />
+
+        <h2>March 29, 2025</h2>
+        <p>
+          I have started a contract position as a Principal Engineer at Peerhaul! 
+          Check out our website: <a href="https://www.peerhaul.ca" target="_blank" rel="noopener noreferrer" className="light-blue-link">www.peerhaul.ca</a>
+        </p>
+
+        <h2>January 10, 2025</h2>
+        <p>
+          I joined Dr. Tong's research team under the Stephen Jarislowsky Chair.
+        </p>
+
+        <h2>October 3, 2024</h2>
+        <p>
+          I started a new internship position at FlyTogether as a Full-Stack Developer.
+        </p>
+
+        <h2>August 26, 2024</h2>
+        <p>I climbed Gros Morne Mountain.</p>
+        <div className="image-container">
           <img
             src={process.env.PUBLIC_URL + "/grosMorne1.jpg"}
-            alt="Image"
-            style={{
-              width: "320px",
-              height: "auto",
-            }}
+            alt="Gros Morne Mountain View 1"
+            className="responsive-image"
           />
-        </div>
-        <div style={{ float: "right", marginRight: "10px" }}>
           <img
             src={process.env.PUBLIC_URL + "/grosMorne2.jpg"}
-            alt="Image"
-            style={{
-              width: "320px",
-              height: "auto",
-            }}
+            alt="Gros Morne Mountain View 2"
+            className="responsive-image"
           />
         </div>
-        <footer className="footer">
-          <p>
-            <a
-              href="https://www.linkedin.com/in/wenkai-wang-367aa228a/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src={require("./link.png")}
-                alt="LinkedIn"
-                className="footer-icon"
-              />
-              Connect Me
-            </a>
-          </p>
-        </footer>
+
+        <footer className="footer"></footer>
       </div>
     </div>
   );
